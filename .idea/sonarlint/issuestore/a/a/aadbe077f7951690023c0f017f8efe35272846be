@@ -1,0 +1,165 @@
+
+r
+java:S1104"UMake loginIcon a static final constant or non-public and provide accessors if needed.(Ïä¡Œ8‰¸õê1
+r
+java:S1104"UMake arrowIcon a static final constant or non-public and provide accessors if needed.(Ü¼È›8‰¸õê1
+€
+java:S1104"^Make choiceCountryField a static final constant or non-public and provide accessors if needed.(»†à¦úÿÿÿÿ8‰¸õê1
+
+java:S1104"_Make buttonStartShopping a static final constant or non-public and provide accessors if needed.(¤¢À»ıÿÿÿÿ8‰¸õê1
+w
+java:S1104"ZMake mailLoginField a static final constant or non-public and provide accessors if needed.(£¯à¸8‰¸õê1
+€
+java:S1104	"^Make passwordLoginField a static final constant or non-public and provide accessors if needed.(©Ø‡¸úÿÿÿÿ8‰¸õê1
+y
+java:S1104"WMake buttonLogin a static final constant or non-public and provide accessors if needed.(–ÂûÄüÿÿÿÿ8‰¸õê1
+…
+java:S1104"cMake popUpLoggedInSuccessful a static final constant or non-public and provide accessors if needed.(¾‘ëĞúÿÿÿÿ8‰¸õê1
+z
+java:S1104"XMake moveWishList a static final constant or non-public and provide accessors if needed.(ËÃí×ıÿÿÿÿ8‰¸õê1
+€
+java:S1104"cMake LinkToResetPasswordPage a static final constant or non-public and provide accessors if needed.(ŸÔºä8‰¸õê1
+‡
+java:S1104"eMake EmailFieldOfResetPassword a static final constant or non-public and provide accessors if needed.(áÿÌ“şÿÿÿÿ8‰¸õê1
+ƒ
+java:S1104"aMake ButtonOfResetPassword a static final constant or non-public and provide accessors if needed.(Ëä¯Æûÿÿÿÿ8‰¸õê1
+Œ
+java:S1104"jMake MessageAfficheForResetPassword a static final constant or non-public and provide accessors if needed.(ûËñíûÿÿÿÿ8‰¸õê1
+
+java:S1104"qMake ButtonBackToHomeFromResetPasswordPage a static final constant or non-public and provide accessors if needed.(ÀŞ8‰¸õê1
+y
+java:S1104"\Make WebSiteOfYopMail a static final constant or non-public and provide accessors if needed.(ØÏßÏ8‰¸õê1
+|
+java:S1104"_Make InputFieldOfYopMail a static final constant or non-public and provide accessors if needed.(¦é†8‰¸õê1
+}
+java:S1104"`Make ButtonGoInsidYopMail a static final constant or non-public and provide accessors if needed.(Í¼®Š8‰¸õê1
+
+java:S1104"bMake IframeOfYopMailMessage a static final constant or non-public and provide accessors if needed.(…üÙ—8‰¸õê1
+Œ
+java:S1104"jMake ButtonForGoToPageResetPassword a static final constant or non-public and provide accessors if needed.(›¦±ìúÿÿÿÿ8‰¸õê1
+~
+java:S1104"\Make NewPasswordField a static final constant or non-public and provide accessors if needed.(Ş˜± ıÿÿÿÿ8‰¸õê1
+|
+java:S1104"ZMake RepeatPassword a static final constant or non-public and provide accessors if needed.(ÀÁ•Ñüÿÿÿÿ8‰¸õê1
+~
+java:S1104"aMake ButounSaveNewPassword a static final constant or non-public and provide accessors if needed.(¼„¤‹8‰¸õê1
+t
+java:S1104"WMake NewPassword a static final constant or non-public and provide accessors if needed.(¯Çî8‰¸õê1
+—
+java:S1104"zMake messageOfConfirmationThePasswordResetSuccefuly a static final constant or non-public and provide accessors if needed.(ÿ½ªÓ8‰¸õê1
+
+java:S1104"bMake refreshButtonOfYopMail a static final constant or non-public and provide accessors if needed.(ıÕüº8‰¸õê1
+Š
+java:S1104"hMake buttonChangeBasswordInAcount a static final constant or non-public and provide accessors if needed.(Ãóß¤ıÿÿÿÿ8‰¸õê1
+
+java:S1104"_Make feildSubscribeEmail a static final constant or non-public and provide accessors if needed.(Ì—êâıÿÿÿÿ8‰¸õê1
+ˆ
+java:S1104 "kMake messageOfSuccessfullySubscribed a static final constant or non-public and provide accessors if needed.(ø¹Öœ8‰¸õê1
+v
+java:S1104!"YMake loctorOfPopup a static final constant or non-public and provide accessors if needed.(¹âØˆ8‰¸õê1
+w
+java:S1104""ZMake selctedCountry a static final constant or non-public and provide accessors if needed.(Œ©œÁ8‰¸õê1
+x
+java:S1104#"[Make generalInterest a static final constant or non-public and provide accessors if needed.(èıÕÌ8‰¸õê1
+}
+java:S1104$"[Make productInterest a static final constant or non-public and provide accessors if needed.(Ù¬¥¤şÿÿÿÿ8‰¸õê1
+
+java:S1104%"]Make buttonOfSubscribe a static final constant or non-public and provide accessors if needed.(ˆ ”İùÿÿÿÿ8‰¸õê1
+L
+java:S1444"/Make this "public static loginIcon" field final(Ïä¡Œ8‘‰¸õê1
+L
+java:S1444"/Make this "public static arrowIcon" field final(Ü¼È›8‘‰¸õê1
+Z
+java:S1444"8Make this "public static choiceCountryField" field final(»†à¦úÿÿÿÿ8‘‰¸õê1
+[
+java:S1444"9Make this "public static buttonStartShopping" field final(¤¢À»ıÿÿÿÿ8‘‰¸õê1
+Q
+java:S1444"4Make this "public static mailLoginField" field final(£¯à¸8‘‰¸õê1
+Z
+java:S1444	"8Make this "public static passwordLoginField" field final(©Ø‡¸úÿÿÿÿ8‘‰¸õê1
+S
+java:S1444"1Make this "public static buttonLogin" field final(–ÂûÄüÿÿÿÿ8‘‰¸õê1
+_
+java:S1444"=Make this "public static popUpLoggedInSuccessful" field final(¾‘ëĞúÿÿÿÿ8‘‰¸õê1
+T
+java:S1444"2Make this "public static moveWishList" field final(ËÃí×ıÿÿÿÿ8‘‰¸õê1
+Z
+java:S1444"=Make this "public static LinkToResetPasswordPage" field final(ŸÔºä8‘‰¸õê1
+a
+java:S1444"?Make this "public static EmailFieldOfResetPassword" field final(áÿÌ“şÿÿÿÿ8‘‰¸õê1
+]
+java:S1444";Make this "public static ButtonOfResetPassword" field final(Ëä¯Æûÿÿÿÿ8‘‰¸õê1
+f
+java:S1444"DMake this "public static MessageAfficheForResetPassword" field final(ûËñíûÿÿÿÿ8‘‰¸õê1
+h
+java:S1444"KMake this "public static ButtonBackToHomeFromResetPasswordPage" field final(ÀŞ8‘‰¸õê1
+S
+java:S1444"6Make this "public static WebSiteOfYopMail" field final(ØÏßÏ8‘‰¸õê1
+V
+java:S1444"9Make this "public static InputFieldOfYopMail" field final(¦é†8‘‰¸õê1
+W
+java:S1444":Make this "public static ButtonGoInsidYopMail" field final(Í¼®Š8‘‰¸õê1
+Y
+java:S1444"<Make this "public static IframeOfYopMailMessage" field final(…üÙ—8‘‰¸õê1
+f
+java:S1444"DMake this "public static ButtonForGoToPageResetPassword" field final(›¦±ìúÿÿÿÿ8‘‰¸õê1
+X
+java:S1444"6Make this "public static NewPasswordField" field final(Ş˜± ıÿÿÿÿ8’‰¸õê1
+V
+java:S1444"4Make this "public static RepeatPassword" field final(ÀÁ•Ñüÿÿÿÿ8’‰¸õê1
+X
+java:S1444";Make this "public static ButounSaveNewPassword" field final(¼„¤‹8’‰¸õê1
+N
+java:S1444"1Make this "public static NewPassword" field final(¯Çî8’‰¸õê1
+q
+java:S1444"TMake this "public static messageOfConfirmationThePasswordResetSuccefuly" field final(ÿ½ªÓ8’‰¸õê1
+Y
+java:S1444"<Make this "public static refreshButtonOfYopMail" field final(ıÕüº8’‰¸õê1
+d
+java:S1444"BMake this "public static buttonChangeBasswordInAcount" field final(Ãóß¤ıÿÿÿÿ8’‰¸õê1
+[
+java:S1444"9Make this "public static feildSubscribeEmail" field final(Ì—êâıÿÿÿÿ8’‰¸õê1
+b
+java:S1444 "EMake this "public static messageOfSuccessfullySubscribed" field final(ø¹Öœ8’‰¸õê1
+P
+java:S1444!"3Make this "public static loctorOfPopup" field final(¹âØˆ8’‰¸õê1
+Q
+java:S1444""4Make this "public static selctedCountry" field final(Œ©œÁ8’‰¸õê1
+R
+java:S1444#"5Make this "public static generalInterest" field final(èıÕÌ8’‰¸õê1
+W
+java:S1444$"5Make this "public static productInterest" field final(Ù¬¥¤şÿÿÿÿ8’‰¸õê1
+Y
+java:S1444%"7Make this "public static buttonOfSubscribe" field final(ˆ ”İùÿÿÿÿ8’‰¸õê1
+
+java:S3008"bRename this field "LinkToResetPasswordPage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÔºä8”‰¸õê1
+†
+java:S3008"dRename this field "EmailFieldOfResetPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÿÌ“şÿÿÿÿ8”‰¸õê1
+‚
+java:S3008"`Rename this field "ButtonOfResetPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëä¯Æûÿÿÿÿ8”‰¸õê1
+‹
+java:S3008"iRename this field "MessageAfficheForResetPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûËñíûÿÿÿÿ8”‰¸õê1
+
+java:S3008"pRename this field "ButtonBackToHomeFromResetPasswordPage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŞ8”‰¸õê1
+x
+java:S3008"[Rename this field "WebSiteOfYopMail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÏßÏ8”‰¸õê1
+{
+java:S3008"^Rename this field "InputFieldOfYopMail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦é†8”‰¸õê1
+|
+java:S3008"_Rename this field "ButtonGoInsidYopMail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¼®Š8”‰¸õê1
+~
+java:S3008"aRename this field "IframeOfYopMailMessage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…üÙ—8”‰¸õê1
+‹
+java:S3008"iRename this field "ButtonForGoToPageResetPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¦±ìúÿÿÿÿ8”‰¸õê1
+}
+java:S3008"[Rename this field "NewPasswordField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş˜± ıÿÿÿÿ8”‰¸õê1
+{
+java:S3008"YRename this field "RepeatPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÁ•Ñüÿÿÿÿ8”‰¸õê1
+}
+java:S3008"`Rename this field "ButounSaveNewPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼„¤‹8”‰¸õê1
+s
+java:S3008"VRename this field "NewPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Çî8”‰¸õê1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(úà­Ûÿÿÿÿÿ8—‰¸õê1
+]	java:S125
+"<This block of commented-out lines of code should be removed.(Ù¹èşÿÿÿÿ8™‰¸õê1
