@@ -67,6 +67,7 @@ public class CurrencyCheckPLP {
         Locator product = page.locator(Locators.product);
         Locator price = page.locator(Locators.price);
         category.hover();
+        WebActions.waitUntilElementDisplayed(product, 30);
         product.click();
         WebActions.waitUntilElementDisplayed(price, 30);
         return price;

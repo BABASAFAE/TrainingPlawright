@@ -22,6 +22,10 @@ public class currencyPLP1 {
 
     @And("the user click on country link")
     public void theUserClickOnCountryLink() {
+        CurrencyCheckPLP c=new CurrencyCheckPLP(page);
+        c.clickcountrylink1();
+        Utils.logger.info("success step");
+
 
 
     }
