@@ -137,10 +137,20 @@ public class HomePage {
            //locator = price of product to bag
             Locator iconpricebag= page.locator(Locators.iconpricebag);
             String priceProduct = iconpricebag.textContent();
-            Utils.logger.info("message validé"+priceProduct);
+            Utils.logger.info("success step"+priceProduct);
              return priceProduct;
 
     }
 
 
+    public void checkprices() {
+
+        Utils.logger.info("success step");
+    }
+
+    public void addQuantity() {
+         Locator iconplus=page.locator(Locators.iconplus);
+         iconplus.click();
+        Utils.logger.info("success step");
+    }
 }

@@ -28,6 +28,7 @@ public class Locators {
     public static String iconretrieveproduct="//div[@data-sku='2189412']//span[text()='£21.95']";
 
     public static String iconpricebag= "//div[@class='basket-price col-span-2 pt-[2px] text-xl text-center']//div[contains(@class,'prices inline-flex')]//span";
+    public static String iconplus="//I[@class='icon-plus block mt-[-4px] ml-[-1px]']";
 
     // public static
 

@@ -43,10 +43,17 @@ public class AddProduct {
         Utils.logger.info("success step");
     }
 
+
     @And("the user check his basket")
     public void theUserCheckHisBasket() throws InterruptedException {
        priceFromBasket = homePage.checkbag();
         Utils.logger.info("success step");
+    }
+    @And("the user add quantity")
+    public void theUserAddQuantity() {
+        homePage.addQuantity();
+        Utils.logger.info("success step");
+
     }
 
     @Then("the prices should be consistent")
@@ -55,4 +62,5 @@ public class AddProduct {
         assert(priceFromBasket.equals(priceFromPLP));
         Utils.logger.info("success step");
     }
+
 }

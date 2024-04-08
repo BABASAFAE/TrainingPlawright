@@ -60,7 +60,6 @@ public class Login {
     public void theUserAccessToTheAccountPage() {
         HomePage homePage=new HomePage(page);
         homePage.AccountPage();
-
         Utils.logger.info("success step");
 
     }
