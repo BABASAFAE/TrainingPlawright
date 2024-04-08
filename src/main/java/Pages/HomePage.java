@@ -1,11 +1,15 @@
 package Pages;
 
+import com.microsoft.playwright.FrameLocator;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.PlaywrightException;
 import utils.Locators;
 import utils.Utils;
 import utils.WebActions;
+
+import java.util.Arrays;
+import java.util.Collections;
 
 public class HomePage {
     private Page page;
@@ -29,5 +33,8 @@ public class HomePage {
         Locator  loginIconLocator = page.locator(Locators.loginIcon);
         WebActions.waitUntilElementDisplayed(loginIconLocator, 20);
         loginIconLocator.click();
+        System.out.println("test ajoute");
+
+
     }
 }
