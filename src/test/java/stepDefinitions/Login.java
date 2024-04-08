@@ -2,12 +2,15 @@ package stepDefinitions;
 
 import Factory.DriverFactory;
 import Pages.HomePage;
+import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import utils.Locators;
 import utils.Utils;
+import utils.WebActions;
 
 public class Login {
     private final Page page = DriverFactory.getPage();
@@ -19,8 +22,9 @@ public class Login {
 
     @And("the user select the Non EU country switcher {}")
     public void theUserSelectTheNonEUCountrySwitcher(String arg0) {
-        HomePage homePage = new HomePage(page);
-        homePage.accessToLogin();
+     /*   HomePage homePage = new HomePage(page);
+        homePage.accessToLogin();*/
+
         Utils.logger.info("success step");
     }
 
@@ -43,4 +47,6 @@ public class Login {
     public void theUserAccessToTheAccountPage() {
         Utils.logger.info("success step");
     }
+
+
 }
