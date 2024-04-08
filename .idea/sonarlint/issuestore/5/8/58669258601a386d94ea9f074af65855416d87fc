@@ -1,35 +1,33 @@
 
-	java:S112›"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8¨τ¶υκ1J$9813af1b-dcdc-470b-bce0-b3e517660857
-	java:S112Θ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ªτ¶υκ1J$180c75f8-aba2-424d-94a2-8c939e57caf4
-	java:S112ς"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ªτ¶υκ1J$a1ed4ef1-c222-4b8c-8333-bff51fe35e6e
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8¨τ¶υκ1J$7c5d2e31-9afe-47f6-8c1a-9421d528228f
+	java:S112Η"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ªτ¶υκ1J$e0a4bfc3-e778-449a-abbe-1118f2acb8c2
+	java:S112ρ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ªτ¶υκ1J$0e90a778-16fc-4c16-a4e2-436fbfa6ec5a
 ‹
-java:S1192/"HDefine a constant instead of duplicating this literal "csvPath" 7 times.(ύ©―§8®τ¶υκ1J$31a3e1c0-9ce7-4612-ac1a-0b852a718918
+java:S1192."HDefine a constant instead of duplicating this literal "csvPath" 7 times.(ύ©―§8®τ¶υκ1J$3e3c2ade-7a98-4d91-81ff-9a9be3a81dc8
 
-java:S11925"IDefine a constant instead of duplicating this literal "username" 5 times.(ΩΣ¶8®τ¶υκ1J$5b36087a-5215-4f2e-b7d1-88df02729405
+java:S11924"IDefine a constant instead of duplicating this literal "username" 5 times.(ΩΣ¶8®τ¶υκ1J$28b7ddbb-ff3c-497b-8bc7-04228d43721a
 Ί
-java:S1488g"wImmediately return this expression instead of assigning it to the temporary variable "messageOfSuccessfullySubscribed".(ΈΖΎµ8°τ¶υκ1J$cf4976b5-84ef-4a92-8713-ea3cb7c20edd
+java:S1488f"wImmediately return this expression instead of assigning it to the temporary variable "messageOfSuccessfullySubscribed".(ΈΖΎµ8°τ¶υκ1J$87142da4-02c6-44d4-9b6b-698919ee4e53
 ®
-java:S1488l"fImmediately return this expression instead of assigning it to the temporary variable "locatorOfPopup".(άΊ­ϊÿÿÿÿ8°τ¶υκ1J$22888e35-f5bf-474c-ad1d-3e8728f50662
+java:S1488k"fImmediately return this expression instead of assigning it to the temporary variable "locatorOfPopup".(άΊ­ϊÿÿÿÿ8°τ¶υκ1J$b795f260-01ed-4d76-9a32-005465e86f67
 ¨
-java:S1488Ν"_Immediately return this expression instead of assigning it to the temporary variable "locator".(¶©Χµύÿÿÿÿ8°τ¶υκ1J$926424e9-8b4c-4b48-98a1-1ece829dc629
+java:S1488Μ"_Immediately return this expression instead of assigning it to the temporary variable "locator".(¶©Χµύÿÿÿÿ8°τ¶υκ1J$911e2e3d-6192-4600-b5b2-df97c8cfa946
 
-java:S26297"7Use the built-in formatting to construct this argument.(θωÿÿÿÿ8²τ¶υκ1J$e3aad65d-e04e-43b4-a88b-cee07e4c548b
+java:S26296"7Use the built-in formatting to construct this argument.(θωÿÿÿÿ8²τ¶υκ1J$6ef6a171-108d-469a-9752-a4b228fcdd71
  
-java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(‡Κ„±8Ίτ¶υκ1J$040b66dc-57bd-44e2-9ed0-a187eb3e7c45
+java:S2629‡"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(‡Κ„±8Ίτ¶υκ1J$69d1e29a-426e-4eb8-92f4-bcf426d1b4b3
 {
-java:S2629²"7Use the built-in formatting to construct this argument.(¤Τÿύ8Ίτ¶υκ1J$6d04e300-368e-412e-b860-8fa54a534268
+java:S2629±"7Use the built-in formatting to construct this argument.(¤Τÿύ8Ίτ¶υκ1J$1b6ad1c8-322c-43da-b3cb-a9f3ba5b35be
 €
-java:S2629Ϊ"7Use the built-in formatting to construct this argument.(θωÿÿÿÿ8Ίτ¶υκ1J$2956c0b1-c626-40e9-9dae-8b09a18d27f2
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΆςC8Ότ¶υκ1J$8b4fcdc5-6442-429b-847d-1f190b892060
+java:S2629Ω"7Use the built-in formatting to construct this argument.(θωÿÿÿÿ8Ίτ¶υκ1J$50e4b3f0-1a66-4145-99af-dd4c0a9c19a2
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΆςC8Ότ¶υκ1J$3e64c486-2ccb-40d1-8f29-424ccce80b48
 Ώ
-java:S1130!"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Φη•ξώÿÿÿÿ8Υτ¶υκ1J$d5375748-fd0f-428a-aac4-fa9b714927d0
-	java:S100W"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»π™8Ϊτ¶υκ1J$8ead9e39-a07d-4b84-be23-5c5021ce8740
-‘	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(΅θ8άτ¶υκ1J$880e44ec-99fc-4003-a205-cbdc7634bb2e
+java:S1130 "wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Φη•ξώÿÿÿÿ8Υτ¶υκ1J$80155334-c818-477a-9f80-d79ff16d255d
+	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»π™8Ϊτ¶υκ1J$a690612f-b7f2-451d-bf20-b5c78c668396
+‘	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(΅θ8άτ¶υκ1J$dfdfbf02-3f82-4a94-b532-6ea3e051b623
 Ά
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8ίτ¶υκ1J$5d76055c-914e-4768-8cb3-466d9e1390f9
+java:S2142™"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8ίτ¶υκ1J$1886c0ca-d185-4c02-ac1d-f565d992dcc4
 Ά
-java:S2142Η"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8δτ¶υκ1J$46652080-4e42-4822-976b-0115574bf0e2
+java:S2142Ζ"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8δτ¶υκ1J$cd138059-703e-4f44-8175-4b42f1a5043c
 Ά
-java:S2142ρ"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8ητ¶υκ1J$6b89541b-30b5-4796-aae2-714acb090901
-x
-java:S1128"0Remove this unused import 'lombok.SneakyThrows'.(¨³όΦϋÿÿÿÿ8Ήτ½φκ1J$504cf5a0-98f4-4768-aebf-0c1d8377b6f9
+java:S2142π"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8ητ¶υκ1J$b5d2ab30-a29a-4f7b-a9da-6c0b2bdb67a1

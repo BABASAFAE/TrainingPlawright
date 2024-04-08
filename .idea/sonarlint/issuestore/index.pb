@@ -580,3 +580,5 @@ P
  src/main/resources/data/data.csv,f\9\f9c2d2e2cc1dcafedbd62176fab26371626cc08d
 a
 1src/test/resources/features/resetPassword.feature,e\4\e4a1b1829bee517ea0c627cea3111ab2e5dc8d3d
+`
+0src/test/java/stepDefinitions/ChangeCountry.java,1\4\14da4de5ff58bbcba4585213f90c0440aafa5e0a

@@ -1,7 +1,6 @@
 package Pages;
 
 import com.microsoft.playwright.*;
-import lombok.SneakyThrows;
 import utils.ConfigReader;
 import utils.Locators;
 import utils.Utils;
