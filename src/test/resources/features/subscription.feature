@@ -12,7 +12,7 @@ Feature: Subscribe
     And the user attemps to subscribe
     Then a confirmation popup is displayed
     And the user is successfully subscribed
-    And add from github platform
+    And add from github platform use fetch
     Examples:
       | country        | fortnumTopic         | product                   |
       | United Kingdom | Hampers & Gift Boxes | The Fortnum’s Wine Hamper |
