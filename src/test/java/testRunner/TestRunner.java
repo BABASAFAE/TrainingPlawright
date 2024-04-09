@@ -14,7 +14,7 @@ import java.util.List;
 @CucumberOptions(
         features = {"src/test/resources/features/"},
         glue = {"stepDefinitions", "hooks"},
-        plugin = {"pretty", "html:target/ReportHTML/report.html", "json:target/cucumber.json"}
+        plugin = {"pretty", "html:target/ReportHTML/reporte.html", "json:target/cucumber.json"}
 )
 public class TestRunner {
 }

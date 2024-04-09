@@ -29,7 +29,7 @@ public class HomePage {
     }
 
 
-    public void chooseCountryForShopping(String country) throws InterruptedException {
+    public void chooseCountryForShopping(String country)  {
         Locator arrowIconLoctor = page.locator(Locators.arrowIcon);
         WebActions.waitUntilElementDisplayed(arrowIconLoctor, 20);
         arrowIconLoctor.click();
