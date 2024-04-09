@@ -15,8 +15,8 @@ Feature: Reset_Password
     And the user retrieves the latest email
     And the user inserts a new password and confirms it
     And the user sees a popup confirming that the password has been successfully changed
-    Then the user logs in with the new password
-    And the user sees a popup confirming that they have successfully logged in
+    And the user logs in with the new password
+    Then the user is successfully logged in
     And the user successfully accesses their account
 
     Examples:

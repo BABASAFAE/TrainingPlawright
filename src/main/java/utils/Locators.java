@@ -31,5 +31,6 @@ public class Locators {
     public static String Password="//input[@name='password']";
     public static String RepeatPassword="//input[@name='repeatPassword']";
     public static String Save="//button[@aria-label='Save New password']";
-    public static String popupSuccesschange="//div[text()='Reset Password']";
+    public static String popupSuccesschange="//div[text()='Your password has been reset successfully!']";
+    public static String AccountIcon="//img[@src='/main-nav-icons_account-filled-wAx.svg']";
 }

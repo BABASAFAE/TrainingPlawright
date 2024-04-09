@@ -77,15 +77,19 @@ public class Resetpassword {
         Utils.logger.info("success step");
     }
 
-    @Then("the user logs in with the new password")
+    @And("the user logs in with the new password")
     public void theUserLogsInWithTheNewPassword() {
+        HomePage homePage = new HomePage(page);
+        homePage.logswithnewpsswrd();
+        Utils.logger.info("success step");
     }
 
-    @And("the user sees a popup confirming that they have successfully logged in")
-    public void theUserSeesAPopupConfirmingThatTheyHaveSuccessfullyLoggedIn() {
-    }
+
 
     @And("the user successfully accesses their account")
-    public void theUserSuccessfullyAccessesTheirAccount() {
+    public void theUserSuccessfullyAccessesTheirAccount() throws InterruptedException {
+        HomePage homePage = new HomePage(page);
+        homePage.AccessToAccount();
+        Utils.logger.info("success step");
     }
 }

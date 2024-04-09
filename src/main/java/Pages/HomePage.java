@@ -63,6 +63,7 @@ public class HomePage {
         Locator popupSuccessLogin = page.locator(Locators.popupSuccessLogin);
         WebActions.waitUntilElementDisplayed(popupSuccessLogin, 20);
         return popupSuccessLogin;
+
     }
 
 
@@ -192,5 +193,32 @@ public class HomePage {
         Locator popupSuccesschange = page.locator(Locators.popupSuccesschange);
         WebActions.waitUntilElementDisplayed(popupSuccesschange, 10);
         return popupSuccesschange;
+    }
+
+    public void logswithnewpsswrd() {
+        page.navigate("https://www-preprod3.fortnums.net/");
+        Locator loginIcon = page.locator(Locators.loginIcon);
+        loginIcon.click();
+        List<Map<String, String>> log = ConfigReader.csvToMap(WebActions.getProperty("csvPath"));
+        Locator emailLocator = page.locator(Locators.emailLocator);
+        Locator mdpLocator = page.locator(Locators.mdpLocator);
+        Locator login = page.locator(Locators.login);
+        for (Map<String, String> row :log) {
+            String emailValid = row.get("emailvalid");
+            String password = row.get("mdpvalid");
+            WebActions.waitUntilElementDisplayed(emailLocator, 10);
+            emailLocator.fill(emailValid);
+            mdpLocator.fill(password);
+            login.click();
+        }
+
+    }
+
+    public void AccessToAccount() throws InterruptedException {
+        Thread.sleep(5000);
+        Locator AccountIcon = page.locator(Locators.AccountIcon);
+        AccountIcon.click();
+       // WebActions.waitUntilElementDisplayed(AccountIcon, 20);
+        Thread.sleep(4000);
     }
 }
