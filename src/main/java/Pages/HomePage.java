@@ -20,6 +20,7 @@ public class HomePage {
     public void removeCookiePopup() throws InterruptedException {
         Thread.sleep(3000);
         try {
+
             page.locator("#usercentrics-root  button[data-testid='uc-accept-all-button']").click();
             Utils.logger.info("'usercentrics-root ' element accept cookie.");
         } catch (PlaywrightException e) {
