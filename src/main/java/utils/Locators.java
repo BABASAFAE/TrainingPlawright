@@ -29,6 +29,9 @@ public class Locators {
 
     public static String iconpricebag= "//div[@class='basket-price col-span-2 pt-[2px] text-xl text-center']//div[contains(@class,'prices inline-flex')]//span";
     public static String iconplus="//I[@class='icon-plus block mt-[-4px] ml-[-1px]']";
+   // public static String totals="//DIV[@class='font-semibold'][text()='£43.90']";
+    public static String totals="(//div[text()='£43.90'])[1]";
+    public static String quantite="//input[contains(@class,'p-inputtext p-component')]";
 
     // public static
 

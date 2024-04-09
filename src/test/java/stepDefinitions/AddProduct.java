@@ -9,13 +9,16 @@ import io.cucumber.java.en.When;
 import utils.Utils;
 
 
-import static Factory.DriverFactory.page;
-
 public class AddProduct {
     private final Page page = DriverFactory.getPage();
-    private final HomePage homePage=new HomePage(page);
-    static String  priceFromPLP;
+    private final HomePage homePage = new HomePage(page);
+    static String priceFromPLP;
     static String priceFromBasket;
+
+    static String quantite;
+
+    static double total;
+
 
     @When("the user hover the Gategory {string}")
     public void theUserHoverTheGategory(String arg0) throws InterruptedException {
@@ -32,7 +35,7 @@ public class AddProduct {
 
     @Then("the user choose the product {string}")
     public void theUserChooseTheProduct(String arg0) throws InterruptedException {
-          priceFromPLP = homePage.retrieveProductPrice(arg0);
+        priceFromPLP = homePage.retrieveProductPrice(arg0);
         Utils.logger.info("success step");
 
     }
@@ -46,9 +49,10 @@ public class AddProduct {
 
     @And("the user check his basket")
     public void theUserCheckHisBasket() throws InterruptedException {
-       priceFromBasket = homePage.checkbag();
+        priceFromBasket = homePage.checkbag();
         Utils.logger.info("success step");
     }
+
     @And("the user add quantity")
     public void theUserAddQuantity() {
         homePage.addQuantity();
@@ -57,10 +61,24 @@ public class AddProduct {
     }
 
     @Then("the prices should be consistent")
-    public void thePricesShouldBeConsistent() {
+    public void thePricesShouldBeConsistent() throws InterruptedException {
         homePage.checkprices();
-        assert(priceFromBasket.equals(priceFromPLP));
+        assert (priceFromBasket.equals(priceFromPLP));
         Utils.logger.info("success step");
     }
 
+    @Then("the price should be equal to the total")
+    public void thePriceShouldBeEqualToTheTotal() {
+        //homePage.checkTotal();
+        Utils.logger.info("inside");
+        double price = Double.parseDouble(priceFromBasket);
+        double quantity = Double.parseDouble(homePage.quantityValue());
+        double total = Double.parseDouble(homePage.checkTotal());
+        Utils.logger.info("Price" + priceFromBasket);
+        //quantite=homePage.quantityValue();
+        Utils.logger.info("quantity" + quantite);
+        Utils.logger.info("total" + homePage.checkTotal());
+        page.waitForTimeout(1000);
+        assert (total == price * quantity);
+    }
 }

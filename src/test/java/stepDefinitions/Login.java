@@ -12,7 +12,6 @@ import io.cucumber.java.en.When;
 import utils.Locators;
 import utils.Utils;
 import utils.WebActions;
-
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class Login {

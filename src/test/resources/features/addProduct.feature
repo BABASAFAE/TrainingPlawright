@@ -23,7 +23,7 @@ Feature: product
     And  the user add product to bag "<product>"
     And the user check his basket
     And the user add quantity
-    Then the prices should be consistent
+    Then the price should be equal to the total
     Examples:
       | country        | category | subcategory | product     |
       | United Kingdom | Biscuits | chocalte    | Toffolossus Biscuits, 600g |

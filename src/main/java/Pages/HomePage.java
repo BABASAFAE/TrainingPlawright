@@ -1,4 +1,5 @@
 package Pages;
+
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.PlaywrightException;
@@ -22,7 +23,7 @@ public class HomePage {
     }
 
     public void removeCookiePopup() throws InterruptedException {
-             Thread.sleep(2000);
+        Thread.sleep(2000);
         try {
             Locator BTNACCEPT = page.locator(btnAcceptAll);
 
@@ -36,13 +37,13 @@ public class HomePage {
     }
 
     public void chooseCountryForShopping(String country) throws InterruptedException {
-        Locator  CountryShopping  = page.locator(SelectCountryIcon);
+        Locator CountryShopping = page.locator(SelectCountryIcon);
         WebActions.waitUntilElementDisplayed(CountryShopping, 20);
         CountryShopping.click();
-        Locator  inputCountryShopping = page.locator(loginSelectCountry);
+        Locator inputCountryShopping = page.locator(loginSelectCountry);
         inputCountryShopping.click();
         Locator optionDropDown = page.locator(String.format(moveWishList, country));
-            optionDropDown.click();
+        optionDropDown.click();
 
         Locator validateCountryShopping = page.locator(btnStartShoping);
         validateCountryShopping.click();
@@ -76,28 +77,28 @@ public class HomePage {
 */
 
 
-     public Locator SuccesLogin() {
+    public Locator SuccesLogin() {
         return page.locator(TestSucces);
     }
 
 
-    public void AccountPage(){
+    public void AccountPage() {
         Locator loginIconLocator = page.locator(loginIcon);
         WebActions.waitUntilElementDisplayed(loginIconLocator, 5);
         loginIconLocator.click();
-       // optionDetailsLocator.click();
+        // optionDetailsLocator.click();
     }
 
     public void choosethecaterory(String catergory) throws InterruptedException {
-        Locator choosethecategory  = page.locator(SelectCateg);
+        Locator choosethecategory = page.locator(SelectCateg);
         WebActions.waitUntilElementDisplayed(choosethecategory, 20);
-      //  SelectCateg.hover();
+        //  SelectCateg.hover();
 
     }
 
     public void userHoverTheCategory(String arg0) throws InterruptedException {
         Locator locatorCategorie = page.locator(Locators.locatorCategorie);
-       // WebActions.waitUntilElementDisplayed(locatorCategorie, 200);
+        // WebActions.waitUntilElementDisplayed(locatorCategorie, 200);
 
         locatorCategorie.hover();
         Thread.sleep(2000);
@@ -105,52 +106,63 @@ public class HomePage {
     }
 
     public void userChooseTheSubCategory(String arg0) throws InterruptedException {
-        Locator locatorsubgategory= page.locator(Locators.locatorsubgategory);
-         locatorsubgategory.click();
+        Locator locatorsubgategory = page.locator(Locators.locatorsubgategory);
+        locatorsubgategory.click();
         Thread.sleep(2000);
     }
 
     public String retrieveProductPrice(String arg0) throws InterruptedException {
 
         //  Locator priceFromPLP= page.locator(Locators.locatorsubgategory);
-           Locator retrieveproduct = page.locator(iconretrieveproduct);
-           String priceProduct = retrieveproduct.textContent();
-           //   Locator  priceFromPLP = page.locator(Locators.iconretrieveproduct);
-           //retrieveproduct.hover();
-           Thread.sleep(2000);
-
-
-        return  priceProduct;
+        Locator retrieveproduct = page.locator(iconretrieveproduct);
+        String priceProduct = retrieveproduct.textContent();
+        //   Locator  priceFromPLP = page.locator(Locators.iconretrieveproduct);
+        //retrieveproduct.hover();
+        Thread.sleep(2000);
+        return priceProduct;
     }
 
     public void addProduct(String arg0) throws InterruptedException {
-        Locator addtobag= page.locator(Locators.addtobag);
-         addtobag.click();
-         Thread.sleep(2000);
+        Locator addtobag = page.locator(Locators.addtobag);
+        addtobag.click();
+        Thread.sleep(2000);
 
     }
 
-       public String checkbag() throws InterruptedException {
-          Locator iconcheckbag= page.locator(Locators.iconcheckbag);
-          iconcheckbag.click();
-           Thread.sleep(2000);
-           //locator = price of product to bag
-            Locator iconpricebag= page.locator(Locators.iconpricebag);
-            String priceProduct = iconpricebag.textContent();
-            Utils.logger.info("success step"+priceProduct);
-             return priceProduct;
+    public String checkbag() throws InterruptedException {
+        Locator iconcheckbag = page.locator(Locators.iconcheckbag);
+        iconcheckbag.click();
+        Thread.sleep(2000);
+        //locator = price of product to bag
+        Locator iconpricebag = page.locator(Locators.iconpricebag);
+        String priceProduct = iconpricebag.textContent();
+        Utils.logger.info("success step" + priceProduct);
+        return priceProduct.substring(1, 6);
 
     }
-
 
     public void checkprices() {
-
         Utils.logger.info("success step");
     }
 
     public void addQuantity() {
-         Locator iconplus=page.locator(Locators.iconplus);
-         iconplus.click();
+        Locator iconplus = page.locator(Locators.iconplus);
+        iconplus.click();
         Utils.logger.info("success step");
     }
+
+
+    public String checkTotal() {
+        Locator totals = page.locator(Locators.totals);
+        //page.waitForTimeout(1000);
+        return totals.textContent().substring(1, 6);
+    }
+
+    public String quantityValue() {
+        Locator quantity = page.locator(Locators.quantite);
+        Utils.logger.info(quantity.getAttribute("value") + "msg affiché");
+        return quantity.getAttribute("value");
+    }
+
+
 }
