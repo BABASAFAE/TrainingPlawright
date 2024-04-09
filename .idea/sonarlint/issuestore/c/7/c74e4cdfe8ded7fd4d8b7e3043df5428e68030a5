@@ -1,0 +1,31 @@
+
+”
+java:S1104"SMake browser a static final constant or non-public and provide accessors if needed.(ÎÀ‰¸ûÿÿÿÿJ$84245002-0ffa-40aa-966f-86ed058eec71
+
+java:S1104"SMake context a static final constant or non-public and provide accessors if needed.(ô íŸJ$69ac4429-a187-4da7-bbc6-a295aa444a50
+‘
+java:S1104	"PMake page a static final constant or non-public and provide accessors if needed.(’¹ó˜úÿÿÿÿJ$846d25df-89e4-433b-93c2-22cf19e1a4ba
+
+java:S1104"]Make threadLocalDriver a static final constant or non-public and provide accessors if needed.(ó°Ê£şÿÿÿÿJ$53e5440f-7889-40b2-8036-93a091687cce
+š
+java:S1104"^Make threadLocalContext a static final constant or non-public and provide accessors if needed.(õ”ÏÓJ$3b3cca7c-b0bd-4c1f-bb77-c6ac046b4441
+i
+java:S1444"-Make this "public static context" field final(ô íŸJ$341be839-fc51-4231-8f43-a3d9579c5a4b
+k
+java:S1444	"*Make this "public static page" field final(’¹ó˜úÿÿÿÿJ$1d4d78d6-b728-4ef6-91a3-ca46819a5bfa
+x
+java:S1444"7Make this "public static threadLocalDriver" field final(ó°Ê£şÿÿÿÿJ$97a95987-d310-4e97-a110-f9dcc4dba370
+t
+java:S1444"8Make this "public static threadLocalContext" field final(õ”ÏÓJ$e705227a-ed28-434e-8be7-676331fa8eb8
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡•ë…J$736ddad9-9394-4122-8b96-99aa60492e2c
+‰
+java:S2095"HUse try-with-resources or close this "Playwright" in a "finally" clause.(ƒó›¦ıÿÿÿÿJ$aa7593b3-8f7d-4b5e-bf85-1d0933478dc9
+„
+java:S2095"HUse try-with-resources or close this "Playwright" in a "finally" clause.(®·äĞJ$f86a6c33-9903-483e-a4a3-e050d5c63d2b
+‰
+java:S2095"HUse try-with-resources or close this "Playwright" in a "finally" clause.(—íİÄüÿÿÿÿJ$5b8ab36f-8f80-46a3-bc83-28ed2f8d9c89
+]	java:S131""Add a default case to this switch.(ñÏ°ÄJ$8cfcb02e-4453-49c0-a783-54f5acfa09f5
+r
+java:S2696!"6Make the enclosing method "static" or remove this set.(°ŞÆİJ$5b31201f-2a49-49ed-a1c7-744ac125930e
+w
+java:S2696#"6Make the enclosing method "static" or remove this set.(í¼ÆüÿÿÿÿJ$64cde0bc-0d43-469a-b52f-fe307d261674
