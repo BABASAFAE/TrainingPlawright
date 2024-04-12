@@ -35,4 +35,11 @@ public class Locators {
     public static String generalInterest="//select[@name='general_interest']";
     public static String productInterest="//select[@name='product_interest']";
     public static String buttonOfSubscribe="//span[text()='Sign Up']";
+    public static String hoverCatgery="//a[@href='/biscuits-category'][text()='Biscuits']";
+    public static String addtolist ="//div[@data-sku='2189412']//i[@class='icon-wishlist']";
+    public static String addsucess ="//DIV[@class='message product flex-1 px-[13px] pb-[20px] text-center lg_mt-[-10px]'][text()='Added to Your Wishlist']";
+    public static String wishlist ="//img[@src='/main-nav-icons_wishlist-filled-7Ju.svg']";
+    public static String deletewishlist = "//i[@class='icon-close text-xl']";
+    public static String  Subcategory ="//a[@href='/biscuits/all-biscuits/caramel']";
+    public static String closeicon = "//i[@class='icon-close']";
 }

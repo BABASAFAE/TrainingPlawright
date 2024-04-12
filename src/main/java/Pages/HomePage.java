@@ -50,7 +50,7 @@ public class HomePage {
         Locator locator = page.locator(Locators.buttonLogin);
 
         for (Map<String, String> row : userData) {
-            String emailValid = row.get("username");
+            String emailValid = row.get("email");
             String password = row.get("password");
             Utils.logger.info("-------------------" + emailValid);
             WebActions.waitUntilElementDisplayed(emailField, 10);
@@ -248,4 +248,55 @@ public class HomePage {
         locatorOfButtonOfSubscribe.click();
 
     }
+    public void DeleteAllProductFromWishList() throws InterruptedException {
+        Locator Locator = page.locator(Locators.wishlist);
+        WebActions.waitUntilElementDisplayed(Locator, 15);
+        Locator.click();
+        boolean deletewishlistexist = page.locator(Locators.deletewishlist) != null;
+        Utils.logger.info("delete wishlist" + deletewishlistexist);
+
+        if (deletewishlistexist) {
+            Locator deletlocator = page.locator(Locators.deletewishlist);
+            WebActions.waitUntilElementDisplayed(deletlocator, 15);
+            deletlocator.click();
+            Locator closelocator = page.locator(Locators.closeicon);
+            WebActions.waitUntilElementDisplayed(closelocator, 25);
+            closelocator.click();
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+
+    }
+
+    public void chooseCategoryForShopping(String category) throws InterruptedException {
+        Thread.sleep(5000);
+        Locator locator = page.locator(Locators.hoverCatgery);
+        locator.hover();
+
+    }
+
+    public void chooseSubCategory(String subcategory) throws InterruptedException {
+        Locator locator = page.locator(Locators.Subcategory);
+        WebActions.waitUntilElementDisplayed(locator, 15);
+        locator.click();
+    }
+
+    public void addToWishList() throws InterruptedException {
+        Locator locator = page.locator(Locators.addtolist);
+        WebActions.waitUntilElementDisplayed(locator, 25);
+        locator.click();
+        Thread.sleep(5000);
+    }
+
+    public Locator addSucess() throws InterruptedException {
+        Locator locator= page.locator(Locators.addsucess);
+        return locator;
+
+
+    }
+
 }
