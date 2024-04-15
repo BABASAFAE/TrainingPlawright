@@ -248,4 +248,60 @@ public class HomePage {
         locatorOfButtonOfSubscribe.click();
 
     }
+
+    // Case 2 "Subscription"
+    public void SubscriptionForm() {
+        Locator EmailSection = page.locator(Locators.EmailSection);
+        WebActions.waitUntilElementDisplayed(EmailSection, 20);
+        EmailSection.scrollIntoViewIfNeeded();
+    }
+    public void InsertEmail() throws InterruptedException {
+        List<Map<String, String>> email = ConfigReader.csvToMap(WebActions.getProperty("csvPath"));
+        Locator insertEmail = page.locator(Locators.insertEmail);
+        for (Map<String, String> row : email) {
+            String emailValid = row.get("email");
+            WebActions.waitUntilElementDisplayed(insertEmail, 30);
+            insertEmail.fill(emailValid);
+        }
+    }
+    public void selectCountry() {
+        Locator SelectCountry = page.locator(Locators.SelectCountry);
+        SelectCountry.click();
+        WebActions.waitUntilElementDisplayed(SelectCountry, 30);
+        page.keyboard().type("United Kingdom");
+        page.waitForTimeout(1000);
+        page.keyboard().press("Enter");
+    }
+    public void WorldFortnum() {
+        Locator selectworldfortnum = page.locator(Locators.selectworldfortnum);
+        selectworldfortnum.click();
+        WebActions.waitUntilElementDisplayed(selectworldfortnum, 30);
+        page.keyboard().type("Tea & Coffee");
+        page.waitForTimeout(1000);
+        page.keyboard().press("Enter");
+    }
+    public void fortnumProduct() {
+        Locator selectfortnumproduct = page.locator(Locators.selectfortnumproduct );
+        selectfortnumproduct.click();
+        WebActions.waitUntilElementDisplayed(selectfortnumproduct , 30);
+        page.keyboard().type("English Breakfast Tea");
+        page.waitForTimeout(1000);
+        page.keyboard().press("Enter");
+    }
+    public void ClickSignUp() {
+        Locator SignUp = page.locator(Locators.SignUp);
+        SignUp.click();
+        WebActions.waitUntilElementDisplayed(SignUp, 20);
+    }
+    public Map<String,Locator>  retrievesuccessfullySubscribed() {
+        Locator popupSuccessSubscribe = page.locator(Locators.popupSuccessSubscribe);
+        Locator messageSuccessSubscribe = page.locator(Locators.messageSuccessSubscribe);
+        WebActions.waitUntilElementDisplayed(popupSuccessSubscribe, 20);
+        WebActions.waitUntilElementDisplayed(messageSuccessSubscribe , 20);
+        Map<String,Locator> successElements = new HashMap<>();
+        successElements.put("popupSuccessSubscribe",popupSuccessSubscribe) ;
+        successElements.put("messageSuccessSubscribe",messageSuccessSubscribe);
+        return  successElements;
+    }
+
 }

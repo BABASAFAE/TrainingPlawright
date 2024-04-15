@@ -35,4 +35,13 @@ public class Locators {
     public static String generalInterest="//select[@name='general_interest']";
     public static String productInterest="//select[@name='product_interest']";
     public static String buttonOfSubscribe="//span[text()='Sign Up']";
+
+    public static String EmailSection="//div[@id='newsletter']";
+    public static String insertEmail="//input[contains(@class,'!w-full pb-[2px]')]";
+    public static String SignUp="//span[text()='Sign Up']";
+    public static String popupSuccessSubscribe="//div[text()='Good news! This email address has already subscribed to our emails.']";
+    public static String SelectCountry="//select[@name='country']";
+    public static String selectworldfortnum="(//select[@class='cursor-pointer max-w-[100%]'])[2]";
+    public static String selectfortnumproduct="(//select[@class='cursor-pointer max-w-[100%]'])[3]";
+    public static String messageSuccessSubscribe="//div[contains(@class,'relative z-[2]')]";
 }
