@@ -303,5 +303,20 @@ public class HomePage {
         successElements.put("messageSuccessSubscribe",messageSuccessSubscribe);
         return  successElements;
     }
+    public void clickSearch(){
+        Locator searchIconLocator = page.locator(Locators.searchButton);
+        WebActions.waitUntilElementDisplayed(searchIconLocator, 5);
+        searchIconLocator.click();
+    }
+    public void Search(String category){
 
+        Locator searchFieldLocator = page.locator(Locators.searchField);
+        WebActions.waitUntilElementDisplayed(searchFieldLocator, 5);
+        searchFieldLocator.fill(category);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        page.keyboard().press("Enter");    }
 }

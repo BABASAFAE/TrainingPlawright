@@ -44,4 +44,8 @@ public class Locators {
     public static String selectworldfortnum="(//select[@class='cursor-pointer max-w-[100%]'])[2]";
     public static String selectfortnumproduct="(//select[@class='cursor-pointer max-w-[100%]'])[3]";
     public static String messageSuccessSubscribe="//div[contains(@class,'relative z-[2]')]";
+    public static String searchButton = "//i[contains(@class,'icon-search')]";
+    public static String searchField = "//input[contains(@id,'autocomplete-0-input')]";
+    public static String searchResult = "//div[contains(@class,'lg_text-heading-3')]//span";
 }
+
